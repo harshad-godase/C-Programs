@@ -1,0 +1,14 @@
+﻿# Ignore binaries & build files
+*.exe
+*.dll
+*.obj
+*.o
+*.out
+
+# Ignore documents
+*.pdf
+*.zip
+
+# Ignore editor settings
+.vscode/
+.idea/
