@@ -1,8 +1,7 @@
 #include<stdio.h>
 
-void swapping(int *ptr1, int *ptr2);
-
 void main(){
+    
     int a,b,temp;
     int *ptr1,*ptr2;
 
@@ -20,8 +19,6 @@ void main(){
 
     printf("\nTwo numbers are after swapping:%d %d",a,b);
 
-    swapping(&a, &b);
-    printf("\nTwo numbers after swapping using function:%d %d", a, b);
 
     //Swapping without 3rd variable
     *ptr1 = *ptr1 + *ptr2;
@@ -34,14 +31,3 @@ void main(){
 
 }
 
-void swapping(int *ptr1, int *ptr2) {
-
-    int temp;
-
-    temp=*ptr1;
-
-    *ptr1=*ptr2;
-
-    *ptr2=temp;
-
-}
