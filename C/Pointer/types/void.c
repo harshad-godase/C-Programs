@@ -17,5 +17,5 @@ void main(){
 
     ptr=&ch; // void pointer pointing to char variable
 
-    printf("\nchar value is:%c",*(char*)ptr); // typecasting void
+    printf("\nchar value is:%c",*(char*)ptr); // typecasting void pointer to char pointer
 }
