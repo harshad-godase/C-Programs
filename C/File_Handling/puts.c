@@ -10,8 +10,6 @@ void main() {
 
     printf("\nEnter your name:");
     scanf("%s",&name);
-    
-
 
     fptr = fopen("name.txt", "w");
 
@@ -19,8 +17,8 @@ void main() {
 
         printf("File not created!\n");
 
-    } else {
-
+    }else{
+        
         for (int i = 0; name[i]!='\0'; i++)
         {
             putc(name[i],fptr);
