@@ -2,7 +2,7 @@
 
 void main(){
     int num,bit;
-    printf("\nENter the number:");
+    printf("\nEnter the number:");
     scanf("%d",&num);
 
     printf("\nEnter the bit number (0-31):");
