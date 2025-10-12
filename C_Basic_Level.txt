@@ -1,0 +1,561 @@
+okay make a question in list format that i have to send to the students 
+
+What are the different basic data types available in C?
+
+What is the difference between signed and unsigned data types?
+
+What is the size of int, char, float, and double in C on a 32-bit and 64-bit system?
+
+What is the difference between float and double?
+
+What is the purpose of void data type in C?
+
+How many bits are there in a char? Can it be negative?
+
+What is the range of unsigned short int and signed short int?
+
+Why is the size of data types machine-dependent?
+
+What happens when you store a negative number in an unsigned variable?
+
+What is the difference between typedef and #define for declaring data types?What is a variable in C?
+
+What is the difference between declaration and definition of a variable?
+
+Can we declare a variable without initialization?
+
+What is the default value of a local variable in C?
+
+What is the default value of a global variable in C?
+
+What is the difference between a local variable and a global variable?
+
+Can two variables have the same name in C? Under what conditions?
+
+What is the difference between automatic, static, and extern variables?
+
+What is the difference between a variable and a constant?
+
+Why do we need to specify a data type when declaring a variable?What is a constant in C? How is it different from a variable?
+
+What are the different types of constants in C?
+
+What is the difference between #define and const?
+
+Can we declare a constant without initialization? Why or why not?
+
+What is the scope of a const variable?
+
+Can we change the value of a const variable using assignment?
+
+What is the difference between character constants 'A' and string constants "A"?
+
+What is the size of '\0' and " \0 "?
+
+Can we use a constant in array size declaration?
+
+Why is it better to use symbolic constants instead of magic numbers in code?What are storage classes in C?
+
+Name the different storage classes in C.
+
+What is the difference between auto and static storage class?
+
+What is the difference between global and local variables in terms of storage class?
+
+What is the default storage class for local variables?
+
+What is the default storage class for global variables?
+
+What is the difference between auto and register?
+
+Can a register variable be declared globally? Why or why not?
+
+Can we get the address of a register variable? Why?
+
+What is the difference between static and extern storage classes?What are operators in C? Name different categories.
+
+What is the difference between = and ==?
+
+What is the difference between unary, binary, and ternary operators?
+
+What is the precedence of arithmetic operators in C?
+
+What is the difference between ++i and i++?
+
+What is the difference between && and &?
+
+What is the difference between || and |?
+
+Can we use relational operators (>, <, ==) with characters in C?
+
+What is the difference between logical operators and bitwise operators?
+
+What is the difference between ~ (bitwise NOT) and ! (logical NOT)?What are standard I/O functions in C?
+
+What is the difference between printf() and puts()?
+
+What is the difference between scanf() and gets()? Why is gets() unsafe?
+
+What is the return type of printf()?
+
+What is the return type of scanf()?
+
+Why should we use format specifiers (%d, %f, etc.) in I/O functions?
+
+What is the difference between %d and %i in scanf() and printf()?
+
+How do you print a character using printf()?
+
+How do you take a single character input from the user?
+
+Why do we need fflush(stdin) after scanf() in some cases?What is the difference between if-else and switch-case?
+
+Can a switch-case work with floating-point numbers? Why or why not?
+
+Can we use multiple conditions in a single if statement? Example?
+
+What is the default case in switch? Is it mandatory?
+
+Can we have multiple default cases in a switch?
+
+What is the difference between if-else-if ladder and switch-case?
+
+Which is faster: if-else or switch-case? Why?
+
+Can switch be used with strings in C?
+
+What is the scope of a variable declared inside an if block?
+
+Can we nest if inside a switch or vice versa?What are loops in C? Why are they used?
+
+What is the difference between for, while, and do-while loops?
+
+Which loop guarantees execution at least once? Why?
+
+Can we write a loop without initialization, condition, or increment?
+
+What is an infinite loop? Give examples with for and while.
+
+Can a for loop work without a body? Example?
+
+What is the difference between break and continue?
+
+Can we nest loops? What is nesting depth limit?
+
+What is the difference between entry-controlled and exit-controlled loops?
+
+Can a while loop be replaced by a for loop always?What is the purpose of the break statement in C?
+
+What is the purpose of the continue statement in C?
+
+What is the difference between break and continue?
+
+Can break be used without a loop or switch-case?
+
+Can continue be used inside a switch-case directly? Why or why not?
+
+What is the purpose of the goto statement?
+
+Why is the use of goto discouraged in modern programming?
+
+Can goto be used to jump backwards in code?
+
+What is the difference between structured and unstructured flow control?
+
+What happens if you use goto to jump into a different function?What is a function in C?
+
+What is the difference between function declaration and function definition?
+
+What is a function prototype? Is it mandatory?
+
+What is the difference between a library function and a user-defined function?
+
+What is the difference between call by value and call by reference?
+
+What happens if you call a function without declaring it in advance?
+
+Can a function return multiple values? How can it be achieved in C?
+
+What is the return type of main()? Why should it not be void?
+
+Can we define a function inside another function in C?
+
+What is the purpose of the void keyword in functions?What is recursion in C?
+
+What is the difference between recursion and iteration?
+
+What are the two parts of a recursive function?
+
+Why is a base condition necessary in recursion?
+
+What happens if a recursive function does not have a base case?
+
+Can every recursive program be written using loops?
+
+Explain direct recursion vs indirect recursion with examples.
+
+What is tail recursion? Why is it important?
+
+What is the default memory structure used by recursion in C?
+
+Is recursion supported in C by default, or do we need to enable it?What does it mean to pass parameters by value in C?
+
+What does it mean to pass parameters by reference in C?
+
+What is the default parameter passing mechanism in C?
+
+Explain the difference between pass by value and pass by reference with an example.
+
+Can you directly pass variables by reference in C like in C++? If not, how is it achieved?
+
+When should you use pass by value vs pass by reference?
+
+What happens when you modify a function parameter that was passed by value?
+
+What happens when you modify a function parameter that was passed by reference?
+
+Why does passing large structures by reference improve performance?
+
+Why is const keyword often used with pass-by-reference in functions?What is an inline function in C?
+
+How is an inline function different from a normal function?
+
+What is the purpose of using inline?
+
+Is inline a request or a command to the compiler?
+
+Can every function be declared as inline? Why or why not?
+
+Can inline functions have recursion?
+
+What happens if an inline function contains a loop or switch-case?
+
+Can inline functions be defined in a header file? Why is it common?
+
+What is the difference between inline functions and macros (#define)?
+
+What is the return type of an inline function — can it be void?What is a pointer in C?
+
+What is the difference between a pointer and a normal variable?
+
+What is the default value of an uninitialized pointer?
+
+What does NULL pointer mean?
+
+What is the difference between *ptr and &ptr?
+
+Can you declare a pointer to a pointer? Give example.
+
+What is the difference between void *, int *, and char *?
+
+What is the difference between pointer declaration and pointer initialization?
+
+Can a pointer point to a constant variable? Example.
+
+What is the difference between const int *ptr, int * const ptr, and const int * const ptr?What is a pointer to a pointer in C?
+
+How is a pointer to a pointer declared? Give syntax.
+
+What is the difference between a normal pointer and a pointer to pointer?
+
+Can you have multiple levels of pointers (pointer to pointer to pointer)?
+
+How do you access the value using a pointer to pointer?
+
+What is the use of a pointer to pointer in C?
+
+Can you pass a pointer to pointer to a function? Why?
+
+What happens if a pointer to pointer is not initialized?
+
+What is the difference between **p and *p?
+
+Can a pointer to pointer point to an array of pointers?What is a function pointer in C?
+
+How is a function pointer declared? Give syntax.
+
+How is a function pointer different from a normal pointer?
+
+Can a function pointer point to a function with parameters?
+
+Can a function pointer point to a void function?
+
+What is the difference between calling a function normally and calling it via a function pointer?
+
+Can function pointers be passed as arguments to functions?
+
+Can function pointers be returned from a function?
+
+What is the use of function pointers in C?
+
+Can a function pointer point to another function pointer?How is an array stored in memory?
+
+What is the relationship between arrays and pointers in C?
+
+What is the difference between arr and &arr?
+
+Can an array name be used as a pointer?
+
+How do you access array elements using pointers?
+
+What is the difference between arr[i] and *(arr + i)?
+
+Can you increment or decrement an array name? Why or why not?
+
+What is the difference between a pointer to an array and an array of pointers?
+
+Can you pass an array to a function using a pointer?
+
+What happens when you pass a multi-dimensional array to a function?What is a null pointer in C?
+
+How do you declare and initialize a null pointer?
+
+What is a wild pointer?
+
+How is a wild pointer different from a null pointer?
+
+What happens if you dereference a null pointer?
+
+What happens if you dereference a wild pointer?
+
+How do you avoid creating wild pointers?
+
+Can you assign NULL to any type of pointer?
+
+Why is it good practice to set pointers to NULL after freeing them?
+
+How can you check if a pointer is null before using it?What is a 1D array in C?
+
+What is a 2D array in C?
+
+How is a 1D array stored in memory?
+
+How is a 2D array stored in memory (row-major vs column-major)?
+
+How do you declare and initialize a 1D array?
+
+How do you declare and initialize a 2D array?
+
+What is the difference between arr and &arr for 1D and 2D arrays?
+
+Can you pass arrays to functions? How?
+
+What is the difference between passing an array by value vs passing a pointer?
+
+Can you determine the size of an array inside a function using sizeof? Why or why not?What is a string in C?
+
+How are strings stored in memory?
+
+What is the difference between char str[] = "ABC" and char *str = "ABC"?
+
+What is a null character ('\0') in a string? Why is it important?
+
+What is the difference between strlen and sizeof when used on strings?
+
+What is the purpose of strcpy()?
+
+What is the purpose of strcat()?
+
+What is the purpose of strcmp()?
+
+What is the purpose of strncpy()? How is it different from strcpy()?
+
+Can you modify a string declared as char *str = "HELLO"? Why or why not?What is a multidimensional array in C?
+
+How is a 2D array declared and initialized?
+
+How is a 3D array declared and initialized?
+
+How are multidimensional arrays stored in memory?
+
+What is row-major order?
+
+What is column-major order? Does C use row-major or column-major?
+
+What is the difference between arr and &arr in a 2D array?
+
+Can you pass a multidimensional array to a function? How?
+
+How does sizeof(arr) behave for multidimensional arrays?
+
+How do you access elements of a multidimensional array using pointers?What is a structure in C?
+
+How is a structure different from an array?
+
+How do you define a structure? Give syntax.
+
+How do you declare a structure variable?
+
+What is the difference between structure definition and structure declaration?
+
+How do you initialize a structure at the time of declaration?
+
+Can you initialize a structure after declaration? How?
+
+Can a structure contain another structure? Give example.
+
+What is the purpose of typedef with structures?
+
+Can structures have arrays as members?What is a nested structure in C?
+
+How is a nested structure different from a normal structure?
+
+Can a structure contain another structure as a member? Give syntax.
+
+Can a nested structure contain pointers to other structures?
+
+How do you access a member of an inner structure?
+
+Can structures be nested multiple levels?
+
+How do you declare variables of nested structures?
+
+Can you initialize a nested structure at declaration?
+
+What is the difference between direct initialization and designated initialization in nested structures?
+
+Why are nested structures used in embedded systems?What is a union in C?
+
+How is a union different from a structure?
+
+How much memory does a union occupy?
+
+Can a union have multiple members of different data types?
+
+How do you declare and initialize a union?
+
+Can a union contain a structure or array as a member?
+
+How do you access a member of a union?
+
+Can a union contain pointers as members?
+
+Can unions be nested?
+
+Why are unions used in embedded systems?What is typedef in C?
+
+What is the purpose of typedef?
+
+How do you declare a new type using typedef?
+
+Can typedef be used with primitive data types? Give example.
+
+Can typedef be used with structures and unions? How?
+
+Is typedef creating a new type or just an alias?
+
+Can typedef be used with pointers? Example.
+
+Can typedef be used with arrays? Example.
+
+How is typedef different from #define for defining types?
+
+Why is typedef important in embedded systems programming?What is dynamic memory allocation in C?
+
+What is the difference between static and dynamic memory allocation?
+
+What is malloc() and how does it work?
+
+What is calloc() and how does it differ from malloc()?
+
+What is realloc() and when is it used?
+
+What is free() and why is it important?
+
+What is the return type of malloc(), calloc(), and realloc()?
+
+Can you allocate memory for structures using malloc?
+
+What happens if malloc or calloc fails?
+
+Why is memory allocated by malloc uninitialized while calloc initializes memory to zero?What is a memory leak in C?
+
+What is a dangling pointer?
+
+How is a dangling pointer created?
+
+How is a memory leak created?
+
+What is the difference between a wild pointer, dangling pointer, and null pointer?
+
+Why are memory leaks critical in embedded systems?
+
+What happens if you dereference a dangling pointer?
+
+Can memory leaks occur with static memory allocation? Why or why not?
+
+Can dangling pointers occur with global or static variables?
+
+How can you avoid creating dangling pointers?What is the stack in C?
+
+What is the heap in C?
+
+How is stack memory allocated and deallocated?
+
+How is heap memory allocated and deallocated?
+
+What is the main difference between stack and heap memory?
+
+Which memory segment is faster: stack or heap? Why?
+
+Can local variables be stored in the heap?
+
+Can global/static variables be stored in the stack?
+
+What happens if the stack overflows?
+
+What happens if the heap is exhausted?What is a storage class in C?
+
+What are the different types of storage classes in C?
+
+What is the scope and lifetime of an auto variable?
+
+What is the scope and lifetime of a static variable?
+
+What is the scope and lifetime of a register variable?
+
+What is the scope and lifetime of an extern variable?
+
+What is the purpose of the volatile keyword?
+
+Can a variable be both static and volatile? Example.
+
+What is the default storage class for local variables?
+
+What is the default storage class for global variables?What is file handling in C?
+
+What is a file pointer (FILE *) in C?
+
+How do you open a file in C? Syntax for fopen().
+
+What are the different file opening modes in C (r, w, a, etc.)?
+
+How do you close a file? Syntax for fclose().
+
+What is the difference between text file and binary file?
+
+How do you read from a file in C? Functions for reading (fgetc, fgets, fread).
+
+How do you write to a file in C? Functions for writing (fputc, fputs, fwrite).
+
+What happens if you try to read from a file that is not opened?
+
+What happens if you try to write to a file opened in read mode?What is a preprocessor directive in C?
+
+What is the purpose of #define?
+
+What is the purpose of #include?
+
+What is the purpose of #ifdef and #ifndef?
+
+How does #undef work?
+
+What is the difference between #include <file> and #include "file"?
+
+Can preprocessor directives take arguments? Give example.
+
+What happens if a header file is included multiple times? How is it prevented?
+
+What is the difference between a macro and a function?
+
+Why are preprocessor directives important in embedded systems?
